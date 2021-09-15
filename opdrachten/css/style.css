@@ -1,0 +1,43 @@
+body{ /*start de aanpasingen van de texst */
+    margin: 100px; /*verplaatst de stuk texst */
+    padding-right: 200px;
+    background-color: rgb(169, 240, 121);
+}/*stopt de aanpasingen */
+
+main {
+    background-color: white;
+}
+
+header { /*dit geeft aan wat de header moet zijn */
+    height: 70px;/*de hoogte van de header */
+    width: 120px;/*de breete van de header */
+    border: 1px solid black;/*de kleur en de dikte van de header */
+    margin: auto;/*zet de header automatie in het midden */
+    padding: 10px 25px;/*geeft de px aan bij de padding */
+    background-color: lightblue;/*de achtergrond kleur */
+    transition: 1s;/*hoe snel de header in het midden verschijnd */
+    color: white;/*de kleur achter de texst */
+    text-align: center;/*zet allen texst nettjes in het midden */
+    text-decoration: none;/*kan er voor zogen dan er een streepje door zit */
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);/*geeft de schaduw aan */
+    font-family: "Times New Roman",Times,serif;/*geeft aan de dingen voor voor */
+    font-size: xx-large;/*geeft aan dat de voorkant groot is */
+}/*stopt de dingen voor de texst */
+
+h1 {/*start de opdracht voor het programeren */
+    font-family: "Lucida Console","Courier New",monospace;/*geeft wat dingen aan voor de font family */
+    margin-left: 50px;
+    margin-top: 50px;
+}/*stopt de opdracht */
+
+p {/*stard de laatste opdracht */ 
+    font-family: "Calibri","Calibri",sans-serif;/*geeft meer dingen aan voor font family */
+    margin-right: 250px;
+    margin: 50px;
+}/*stopt de laatste opdracht */
+
+footer {
+    background-color: #333333;
+    padding: 30px;
+    color: white;
+}
