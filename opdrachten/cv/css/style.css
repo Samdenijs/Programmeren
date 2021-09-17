@@ -18,6 +18,12 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
+.bottom {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(75, 72, 72);
+    margin-top: 0px;
+}
