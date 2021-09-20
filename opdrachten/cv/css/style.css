@@ -1,33 +1,96 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
+body, html {/*start van de body van html */
+    height: 100%;/*de hoogte er van */
+    margin: 0;/*zorgt er voor dat hij naar boven benden of naar de zijkant gaat. */
+}/*stopt de opdracht */
 
-.hero-image {
-    background-image: url("https://www.lksvdd.nl/wp-content/uploads/2019/10/LKSVDD-Brede-school-Noorderbreedte-003-1920.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero-image {/*start het platsen van de foto */
+    background-image: url("https://www.lksvdd.nl/wp-content/uploads/2019/10/LKSVDD-Brede-school-Noorderbreedte-003-1920.jpg");/*de foto van het gebouw in de opdracht */
+    height: 50%;/*de hoogte waar de foto staat */
+    background-position: center;/*de plek waar hij staat in het midden dus */
+    background-repeat: no-repeat;/*geeen herhaling van de achtergrond */
+    background-size: cover;/*de grote van de foto die het helen pagina in neemt */
+    position: relative;/*de positie van de foto */
+}/*sluit de opdracht foot de foto */
+
+.hero-text {/*start de plaats van de tekst */
+    text-align: center;/*zecht waar de tekst moet staan */
+    position: absolute;/*de positie van de tekst */
+    top: 50%; /*hoe ver de tekst van boven is */
+    left: 50%;/*hoe ver de tekst van de linker kant is */
+    transform: translate(-50%, -50%);/* */
+    color: rgb(0, 0, 0);/*de kleur van de tekst */
+}/*het sluiten van de tekst opdracht */
+
+.bottom {/*de onder balk onder de foto start */
+    height: 80px;/*hoe hoog hij is */
+    width: 100%;/*hoe breed kij is */
+    background-color: rgb(75, 72, 72);/*de kleur van de balk */
+    margin-top: 0px;/*zorgt er voor dat hij naar boven benden of naar de zijkant gaat. */
+}/*stopt de opdracht van de balk */
+.image {/*begin foto */
+    height: 200px;/*breete foto */
+    width: 200px;/*hoogte foto */
+}/*eindigt foto */
+main{
     position: relative;
+  width: 1300px;
 }
-
-.hero-text {
-    text-align: center;
+.overmij {
+    background-color: rgba(170, 166, 166, 0.733);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    top: 0px;
+    left: 0;
+    width: 500px;
+    border-style: solid;
+    border-right: 2px, 2px;
 }
-
-.bottom {
-    height: 80px;
+.mijnopleiding {
+    background-color: rgba(170, 166, 166, 0.733);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 500px;
+    border-style: solid;
+    border-right: 2px, 2px;
+}
+.werkervaring {
+    background-color: rgba(170, 166, 166, 0.733);
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 500px;
+    border-style: solid;
+    border-right: 2px, 2px;
+}
+.mijnwerk {
+    background-color: rgba(170, 166, 166, 0.733);
+    position: absolute;
+    top: 400px;
+    right: 0;
+    width: 616px;
+    border-style: solid;
+    border-right: 2px, 2px;
+}
+.mijncomputer {
+    background-color: rgba(170, 166, 166, 0.733);
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 500px;
+    border-style: solid;
+    border-right: 2px, 2px;
+}
+.mijnonderkant {
+    background-color: rgb(61, 83, 83);
+    position: absolute;
+    top: 1700px;
+    left: 0;
     width: 100%;
-    background-color: rgb(75, 72, 72);
-    margin-top: 0px;
 }
-.image {
-    height: 200px;
-    /* width: 200px; */
+.mijnemail { 
+    background-color: rgb(61, 83, 83);
+    position: absolute;
+    top: 375px;
+    left: 0;
+    width: 100%;
 }
