@@ -28,8 +28,8 @@
     width: 780px;
     height: 215px;
     border-style: solid;
-    border-color: darkblue;
-    border-right: 1px, 1px;
+    border-color:blue;
+    border-width: 1.5px;
 
 }
 .mauris {
@@ -40,8 +40,8 @@
     width: 780px;
     height: 215px;
     border-style: solid;
-    border-color: darkblue;
-    border-right: 0.5px, 0.5px;
+    border-color:blue;
+    border-width: 1.5px;
 }
 .porta {
     background-color: lightsteelblue ;
@@ -51,8 +51,8 @@
     width: 780px;
     height: 215px;
     border-style: solid;
-    border-color: darkblue;
-    border-right: 1px, 1px;
+    border-color:blue;
+    border-width: 1.5px;
 }
 .ipsum {
     background-color: lightsteelblue ;
@@ -62,8 +62,8 @@
     width: 780px;
     height: 215px;
     border-style: solid;
-    border-color: darkblue;
-    border-right: 1px, 1px;
+    border-color:blue;
+    border-width: 1.5px;
 }
 .vitae {
     background-color: lightsteelblue ;
@@ -73,8 +73,8 @@
     width: 780px;
     height: 235px;
     border-style: solid;
-    border-color: darkblue;
-    border-right: 1px, 1px;
+    border-color:blue;
+    border-width: 1.5px;
 }
 
 .tekst1 {
@@ -83,6 +83,7 @@
     left: 0;
     width: 600px;
     height: 210px;
+    padding-left: 2px;
 }
 
 .tekst2 {
@@ -91,6 +92,7 @@
     left: 0;
     width: 600px;
     height: 200px;
+    padding-left: 2px;
 }
 
 .tekst3 {
@@ -99,6 +101,7 @@
     left: 0;
     width: 600px;
     height: 200px;
+    padding-left: 2px;
 }
 
 .tekst4 {
@@ -107,6 +110,7 @@
     left: 0;
     width: 600px;
     height: 200px;
+    padding-left: 2px;
 }
 
 .tekst5 {
@@ -115,40 +119,41 @@
     left: 0;
     width: 600px;
     height: 200px;
+    padding-left: 2px;
 }
 
 
 .foto1 {
     position: absolute;
-    top: 160px;
+    top: 180px;
     right: 0;
     width: 530px;
     height: 125px;
 }
 .foto2 {
     position: absolute;
-    top: 400px;
+    top: 420px;
     right:  0;
     width: 530px;
     height: 100px;
 }
 .foto3 {
     position: absolute;
-    top: 640px;
+    top: 660px;
     right: 0;
     width: 530px;
     height: 100px;
 }
 .foto4 {
     position: absolute;
-    top: 880px;
+    top: 895px;
     right: 0;
     width: 530px;
     height: 100px;
 }
 .foto5 {
     position: absolute;
-    top: 1130px;
+    top: 1145px;
     right: 0;
     width: 530px;
     height: 100px;
