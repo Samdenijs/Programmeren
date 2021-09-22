@@ -1,0 +1,182 @@
+#main {
+    background-color: lightsteelblue;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 800px;
+    height: 1335px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 1px, 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorembv {
+    background-color: lightsteelblue;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    text-align:center;
+}
+
+.lorem { 
+    background-color: lightsteelblue ;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    height: 215px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 1px, 1px;
+
+}
+.mauris {
+    background-color: lightsteelblue ;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    height: 215px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 0.5px, 0.5px;
+}
+.porta {
+    background-color: lightsteelblue ;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    height: 215px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 1px, 1px;
+}
+.ipsum {
+    background-color: lightsteelblue ;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    height: 215px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 1px, 1px;
+}
+.vitae {
+    background-color: lightsteelblue ;
+    margin:auto;
+    top: 0px;
+    left: 0;
+    width: 780px;
+    height: 235px;
+    border-style: solid;
+    border-color: darkblue;
+    border-right: 1px, 1px;
+}
+
+.tekst1 {
+    margin:left;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 210px;
+}
+
+.tekst2 {
+    margin:left;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+}
+
+.tekst3 {
+    margin:left;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+}
+
+.tekst4 {
+    margin:left;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+}
+
+.tekst5 {
+    margin:left;
+    top: 0px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+}
+
+
+.foto1 {
+    position: absolute;
+    top: 160px;
+    right: 0;
+    width: 530px;
+    height: 125px;
+}
+.foto2 {
+    position: absolute;
+    top: 400px;
+    right:  0;
+    width: 530px;
+    height: 100px;
+}
+.foto3 {
+    position: absolute;
+    top: 640px;
+    right: 0;
+    width: 530px;
+    height: 100px;
+}
+.foto4 {
+    position: absolute;
+    top: 880px;
+    right: 0;
+    width: 530px;
+    height: 100px;
+}
+.foto5 {
+    position: absolute;
+    top: 1130px;
+    right: 0;
+    width: 530px;
+    height: 100px;
+}
+.menu {
+    background-color: darkblue;
+    width: 100%;
+}
+
+nav ul {
+     list-style: none;
+     padding:0px;
+     margin: 0px;
+}
+
+nav ul li {
+    display:inline-block;
+    padding:10px;
+    margin-left: 65px;
+}
+
+nav ul li a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    font-weight: bold;
+    color:white;
+    font-size: 92.7%;
+}
